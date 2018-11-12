@@ -20,15 +20,16 @@ body{
     color: rgba( 96, 96, 96, 0.8);
     margin: 0;
     padding: 0; 
-    position: absolute;
+    position: absolute; 
 }
 
-[class^="col-"],
+/*[class^="col-"],
 [class*=" col-"],
 .row {
     padding: 0.5rem;
     margin: 0.5rem;
 }
+*/
 
 header{
     position: relative;
@@ -41,12 +42,12 @@ header{
 .wrap .logo{
     width: 50%;
 }
-
+/*   Enlevé par Angélique 
 .container-fluid{
     padding: 0px;
     margin: 0px;
 }
-
+*/
 .bandeau-bleu{
     border-top: 10px solid #1E95D3;
    
@@ -194,7 +195,7 @@ footer{
 .h1, h1 {
     font-size: 1rem;
     color:#FF7D19;
-    text-decoration: underline;
+  /*  text-decoration: underline; */          
 
     
 }
@@ -234,8 +235,7 @@ footer{
     border: 1px solid  #a39382;
     margin-bottom: 3rem;
     
-    background-color: rgba( 51, 159, 215, 0.1); /* fond bleu ciel*/
-  /* background-color: rgba( 242, 166, 86, 0.1); */
+  
 }
 .forma .formations h2{
     text-transform: uppercase;
