@@ -1,7 +1,23 @@
+/* STYLES GENERAUX -- tout peut-être modifié ! -- */
+
+ /* -- COLOR -- */
+ /*  .gris-bleu moyen : #ccc;
+     .bleu clair :  #B0E0E6;
+     .bleu moyen => logo asbl: #6495ED;
+     .bleu thème => couleur du FOOTER : #339fd7; rgb( 51, 159, 215);
+     .gris moyen mauve : #d3cdcb;
+     .gris moyen => couleur de soulignement: #a39382;
+     .gris foncé => Couleur des titres h1: #4c4c4c;
+     .orange thème => couleur bouton et menu : #ff7d18; rgb( 255, 125, 24);
+     .gris moyen foncé => rgba( 96, 96, 96, 0.8);
+ 
+*/ 
 
 body{
-    font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI", "Lucida Grande", Roboto, Verdana, Lucida, Helvetica, Arial, sans-serif;
     font-size: 15px;
+    background-color : white;
+    color: rgba( 96, 96, 96, 0.8);
     margin: 0;
     padding: 0; 
     position: absolute;
@@ -10,7 +26,7 @@ body{
 [class^="col-"],
 [class*=" col-"],
 .row {
-    padding: 0.5 rem;
+    padding: 0.5rem;
     margin: 0.5rem;
 }
 
@@ -206,7 +222,7 @@ footer{
 
 
 /* DEBUT FORMATIONS */
-#nosformations{
+.forma #nosformations{
     padding: 3rem 0;
     text-align: center;
     font-size: 2rem;
@@ -214,14 +230,14 @@ footer{
     
 }
 
-.formations{
+.forma .formations{
     border: 1px solid  #a39382;
     margin-bottom: 3rem;
     
     background-color: rgba( 51, 159, 215, 0.1); /* fond bleu ciel*/
   /* background-color: rgba( 242, 166, 86, 0.1); */
 }
-.formations h2{
+.forma .formations h2{
     text-transform: uppercase;
     font-size: 1.5rem;
     padding:0.5rem 0;
@@ -229,26 +245,26 @@ footer{
     text-underline-position: under;
     color: #4c4c4c;    
 }
-.formations p{
+.forma .formations p{
     font-size: 1.1rem;
 }
-.formations img{
+.forma .formations img{
     width: 100%;
     height: auto;
     float: right;
 }
 
-.formations .row div:nth-child(2){
+.forma .formations .row div:nth-child(2){
     text-align: right;
 }
 
-.formations .row div:first-child *{
+.forma .formations .row div:first-child *{
    
   /*  margin-left: 1rem; */
     padding-left: 1rem; 
 }
 
-.btn-info{
+.forma .btn-info{
     background-color: #ff7d18;
     border: none;
     
@@ -256,40 +272,40 @@ footer{
 
 /* --- PAGE liées à FORMATIONS (extend) ==> FORMATION FLE LANGUE ETRANGERE --- */
 
-.extend h2{
+.forma .extend h2{
     text-decoration: underline #a39382;
     text-underline-position: under;
     font-size: 1.5rem;
     padding-top: 0.8rem;
 }
-.extend h3{
+.forma .extend h3{
     font-size: 1.3rem;
     padding-top: 1.1rem;
      
 }
-.extend h2, .extend h3{
+.forma .extend h2, .extend h3{
     text-decoration: underline #a39382;
     text-underline-position: under;
     
     padding-bottom: 0.5rem;
     color: #4c4c4c;  
 }
-.extend .row div:first-child ul{
+.forma .extend .row div:first-child ul{
     line-height: 1.8rem;   
 }
-.extend .row:last-of-type p:last-of-type{
+.forma .extend .row:last-of-type p:last-of-type{
     color: #ff7d18;
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
     text-align: center;
 }
-.extend .row:nth-child(3) div:nth-child(2){
+.forma .extend .row:nth-child(3) div:nth-child(2){
     background-color: rgba( 51, 159, 215, 0.2);
     border-radius: 7px;
     margin: 0.7rem;
    
 }
- .extend .row:last-of-type div:last-of-type .inscrire{
+ .forma .extend .row:last-of-type div:last-of-type .inscrire{
     
     text-align: center;
 }
