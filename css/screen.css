@@ -105,9 +105,10 @@ nav ul li:hover .sub-menu {
     margin: 9px; 
 }  */
 
-img{
+.acceuil img{
     width: 100%;
     height: auto;
+    margin: 1rem;
 
 } 
 .btn{
@@ -171,7 +172,7 @@ footer{
 /* DEBUT ACCEUIL */
 
     
-.banière-accueil{
+.banière-acceuil{
     margin-top: 12px; 
   
 }
