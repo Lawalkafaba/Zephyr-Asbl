@@ -180,6 +180,10 @@ footer{
     text-align: center;
 
 }
+.soutien h4{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
 /* FIN FOOTER */
 
 
@@ -267,6 +271,9 @@ footer{
 .forma .btn-info{
     background-color: #ff7d18;
     border: none;
+    min-width: 12rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
     
 }
 
