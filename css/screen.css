@@ -1,0 +1,236 @@
+
+body{
+    font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0; 
+    position: absolute;
+}
+
+[class^="col-"],
+[class*=" col-"],
+.row {
+    padding: 0.5 rem;
+    margin: 0.5rem;
+}
+
+header{
+    position: relative;
+}
+.wrap{
+    background-color:white;
+    height: 5rem;
+    padding: 5px;
+}
+.wrap .logo{
+    width: 50%;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bandeau-bleu{
+    border-top: 10px solid #1E95D3;
+   
+}
+
+nav{
+    display: block; 
+    position: sticky;  /*pour fixer le nav */
+    z-index: 10000;
+    top: 0;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+nav ul{
+    padding: 0.5rem 1.5rem;
+    margin: 0px;
+    list-style-type: none;
+    background-color: #FFBD4F;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+nav li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 5px;
+
+}
+
+
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+
+nav li :hover {
+    color: #EEEEC6;
+    text-decoration: none;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+
+nav ul li:hover .sub-menu {
+    display: block;
+}
+
+
+/*.button {
+    background-color: #8EFAEC;
+    border: none;
+    color: #ea0d0d;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 9px; 
+}  */
+
+img{
+    width: 100%;
+    height: auto;
+
+} 
+.btn{
+    background: #3b5998;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    /*  margin: 15px;
+      width: 35px; */
+}
+
+.btn-facebook{
+    background: #3b5998;
+ 
+}
+
+.btn:hover{
+    color: white;
+    opacity: 0.8;
+}
+
+
+.fas {
+    color: white;
+}
+
+/* FIN BODY */
+
+
+/* SUBSIDES A NE PAS TOUCHER */ 
+
+.soutien{
+    border-top: 3px solid #FF8000;
+    margin: 2rem;
+    font-family: Segoe UI;
+    color: #FF892F;
+    
+}
+
+.container-fluid .subside{
+    width: 100%;
+    height: auto;
+    margin: 22px;
+    /*left: 3rem; */
+}
+/*DEBUT FOOTER A NE PAS TOUCHER */
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #1E95D3; 
+    margin-top: 10px;
+    text-align: center;
+
+}
+/* FIN FOOTER */
+
+
+
+
+/* DEBUT ACCEUIL */
+
+    
+.banière-accueil{
+    margin-top: 12px; 
+  
+}
+.h1, h1 {
+    font-size: 1rem;
+    color:#FF7D19;
+    text-decoration: underline;
+
+    
+}
+    
+
+/* FIN ACCEUIL */
+
+
+
+
+/* DEBUT QUI SOMMES NOUS? */
+.apropos{
+ 
+    display: none;
+
+
+
+
+    
+}
+
+/* FIN QUI SOMMES NOUS? */
+
+
+
+
+/* DEBUT FORMATIONS */
+
+
+/* FIN FORMATIONS */
+
+
+
+
+/* DEBUT CONTACT */
+
+
+/* FIN CONTACT */
+
+
+
+
+/* PARTENAIRES */
+
+
+/* FIN PARTENAIRES */
+
+
+
+/* DEBUT SOUTENIR */
+
+
+/* FIN SOUTENIR */
+
+
