@@ -196,14 +196,17 @@ footer{
     margin-top: 12px; 
 
 }
+/*
 .h1, h1 {
     font-size: 1rem;
     color:#FF7D19;
-    /*  text-decoration: underline; */          
-.actualites-accueil > img
-
-
 }
+*/
+   /* 
+    .actualites-accueil > img{
+        
+    }
+*/
 
 
 /* FIN ACCEUIL */
@@ -282,8 +285,10 @@ footer{
 /* --- PAGE liées à FORMATIONS (extend) ==> FORMATION FLE LANGUE ETRANGERE --- */
 
 .forma .extend h2{
+    /*
     text-decoration: underline #a39382;
     text-underline-position: under;
+    */
     font-size: 1.5rem;
     padding-top: 0.8rem;
 }
@@ -293,9 +298,10 @@ footer{
 
 }
 .forma .extend h2, .extend h3{
+    /*
     text-decoration: underline #a39382;
     text-underline-position: under;
-
+    */
     padding-bottom: 0.5rem;
     color: #4c4c4c;  
 }
