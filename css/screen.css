@@ -202,6 +202,9 @@ footer{
     color:#FF7D19;
 }
 */
+.actualites-accueil h1{
+    font-size: 2rem;
+}
    /* 
     .actualites-accueil > img{
         
@@ -249,8 +252,10 @@ footer{
     text-transform: uppercase;
     font-size: 1.5rem;
     padding:0.5rem 0;
+    /*
     text-decoration: underline #a39382;
     text-underline-position: under;
+    */
     color: #4c4c4c;    
 }
 .forma .formations p{
