@@ -267,7 +267,7 @@ footer{
 .forma .formations img{
     width: 100%;
     height: auto;
-    float: right;
+  /*  float: right; */
 }
 
 .forma .formations .row div:nth-child(2){
@@ -286,6 +286,7 @@ footer{
     min-width: 12rem;
     margin-right: 4rem;
     margin-top: 4rem;
+    margin-bottom: 1rem;
     
 
 }
