@@ -1,16 +1,18 @@
 /* STYLES GENERAUX -- tout peut-être modifié ! -- */
 
- /* -- COLOR -- */
- /*  .gris-bleu moyen : #ccc;
-     .bleu clair :  #B0E0E6;
-     .bleu moyen => logo asbl: #6495ED;
-     .bleu thème => couleur du FOOTER : #339fd7; rgb( 51, 159, 215);
-     .gris moyen mauve : #d3cdcb;
-     .gris moyen => couleur de soulignement: #a39382;
-     .gris foncé => Couleur des titres h1: #4c4c4c;
-     .orange thème => couleur bouton et menu : #ff7d18; rgb( 255, 125, 24);
-     .gris moyen foncé => rgba( 96, 96, 96, 0.8);
- 
+/* -- COLOR -- */
+/*  .gris-bleu moyen : #ccc;
+    .bleu clair :  #B0E0E6;
+    .bleu moyen => logo asbl: #6495ED;
+    .bleu thème => couleur du FOOTER : #339fd7; rgb( 51, 159, 215);
+    .gris moyen mauve : #d3cdcb;
+    .gris moyen => couleur de soulignement: #a39382;
+    .gris foncé => Couleur des titres h1: #4c4c4c;
+    .gris moyen foncé => rgba( 96, 96, 96, 0.8);
+    .orange thème => couleur bouton et menu : #ff7d18; rgb( 255, 125, 24);
+    .orange menu : #FFBD4F; rgb( 255, 189, 79);
+    
+
 */ 
 
 body{
@@ -50,7 +52,7 @@ header{
 */
 .bandeau-bleu{
     border-top: 10px solid #1E95D3;
-   
+
 }
 
 nav{
@@ -61,7 +63,7 @@ nav{
     padding: 0px;
     margin: 0px;
     text-align: center;
-    
+
 }
 
 nav ul{
@@ -122,9 +124,10 @@ nav ul li:hover .sub-menu {
     margin: 9px; 
 }  */
 
-img{
+ img{
     width: 100%;
     height: auto;
+    margin: 1rem;
 
 } 
 .btn{
@@ -139,7 +142,7 @@ img{
 
 .btn-facebook{
     background: #3b5998;
- 
+
 }
 
 .btn:hover{
@@ -162,7 +165,10 @@ img{
     margin: 2rem;
     font-family: Segoe UI;
     color: #FF892F;
-    
+
+}.soutien h4{    
+    font-size: 1.2rem;   
+    padding-top: 0.5rem;
 }
 
 .container-fluid .subside{
@@ -178,7 +184,8 @@ footer{
     background-color: #1E95D3; 
     margin-top: 10px;
     text-align: center;
-
+    color: white;
+   
 }
 /* FIN FOOTER */
 
@@ -187,19 +194,26 @@ footer{
 
 /* DEBUT ACCEUIL */
 
-    
-.banière-accueil{
+
+.banière-acceuil{
     margin-top: 12px; 
-  
+
 }
+/*
 .h1, h1 {
     font-size: 1rem;
     color:#FF7D19;
-  /*  text-decoration: underline; */          
-
-    
 }
-    
+*/
+.actualites-accueil h1{
+    font-size: 2rem;
+}
+   /* 
+    .actualites-accueil > img{
+        
+    }
+*/
+
 
 /* FIN ACCEUIL */
 
@@ -208,13 +222,13 @@ footer{
 
 /* DEBUT QUI SOMMES NOUS? */
 .apropos{
- 
+
     display: none;
 
 
 
 
-    
+
 }
 
 /* FIN QUI SOMMES NOUS? */
@@ -228,21 +242,23 @@ footer{
     text-align: center;
     font-size: 2rem;
     color: #4c4c4c;
-    
+
 }
 
 .forma .formations{
     border: 1px solid  #a39382;
     margin-bottom: 3rem;
-    
-  
+
+
 }
 .forma .formations h2{
     text-transform: uppercase;
     font-size: 1.5rem;
     padding:0.5rem 0;
+    /*
     text-decoration: underline #a39382;
     text-underline-position: under;
+    */
     color: #4c4c4c;    
 }
 .forma .formations p{
@@ -251,7 +267,7 @@ footer{
 .forma .formations img{
     width: 100%;
     height: auto;
-    float: right;
+  /*  float: right; */
 }
 
 .forma .formations .row div:nth-child(2){
@@ -259,34 +275,42 @@ footer{
 }
 
 .forma .formations .row div:first-child *{
-   
-  /*  margin-left: 1rem; */
+
+    /*  margin-left: 1rem; */
     padding-left: 1rem; 
 }
 
 .forma .btn-info{
     background-color: #ff7d18;
     border: none;
+    min-width: 12rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
     
+
 }
 
 /* --- PAGE liées à FORMATIONS (extend) ==> FORMATION FLE LANGUE ETRANGERE --- */
 
 .forma .extend h2{
+    /*
     text-decoration: underline #a39382;
     text-underline-position: under;
+    */
     font-size: 1.5rem;
     padding-top: 0.8rem;
 }
 .forma .extend h3{
     font-size: 1.3rem;
     padding-top: 1.1rem;
-     
+
 }
 .forma .extend h2, .extend h3{
+    /*
     text-decoration: underline #a39382;
     text-underline-position: under;
-    
+    */
     padding-bottom: 0.5rem;
     color: #4c4c4c;  
 }
@@ -294,19 +318,23 @@ footer{
     line-height: 1.8rem;   
 }
 .forma .extend .row:last-of-type p:last-of-type{
-    color: #ff7d18;
+    background-color: rgba( 255, 189, 79, 0.1);
+    margin-top: 3rem;
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
     text-align: center;
+    border: 2px solid #ff7d18;
+    box-shadow: 8px 8px 12px #a39382;
+    
 }
 .forma .extend .row:nth-child(3) div:nth-child(2){
     background-color: rgba( 51, 159, 215, 0.2);
     border-radius: 7px;
     margin: 0.7rem;
-   
+
 }
- .forma .extend .row:last-of-type div:last-of-type .inscrire{
-    
+.forma .extend .row:last-of-type div:last-of-type .inscrire{
+
     text-align: center;
 }
 

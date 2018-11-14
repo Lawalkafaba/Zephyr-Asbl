@@ -1,21 +1,22 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>Zephyr asbl</title>
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
         <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/screen.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body class="apropos">
-        <h1>Qui sommes nous?</h1>
+    <body>
         <header>
             <div class="wrap">
                 <div class="row">
                     <div class="col-sm-3 col-md-3 col-lg-3">
+
                         <div class="logo"> <!-- LE LOGO ICI -->
-                       
+                              <img src="images/Logo final -zephyr.png" alt="logo de l'asbl Zephyr avec des vagues pour le vent et deux personnages représentant des migrants"/>
                         </div> 
                     </div>
                     <div class="social col-sm-6 col-md-2 col-lg-1"> 
@@ -40,7 +41,7 @@
         </header>
         <nav>
             <ul>
-                <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Acceuil</a></li>
                 <li class="current-menu-item"><a href="apropos.html"><i class="far fa-id-badge"></i> Qui sommes-nous?</a></li>
                 <li><a href="formations.html"><i class="fas fa-briefcase"></i> Nos formations</a></li><!--
                 --><li><a href="#"><i class="far fa-envelope"></i> Nous fontacter</a>
@@ -62,22 +63,7 @@
 
         </nav>
         <!-- debut contenu -->
-        <main class="apropos">
-
-
-
-
-            <div> je suis apropos</div>
-
-
-
-
-
-
-
-
-
-
+        <main class="nous-soutenir">
 
 
             <!-- FIN DE VOTRE CONTENU -->
@@ -132,4 +118,3 @@
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>
-
