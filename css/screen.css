@@ -361,6 +361,14 @@ footer{
 
 /* DEBUT SOUTENIR */
 
+.soutenir-main-image {
+    text-align: center;
+}
+
+.soutenir-main-image img{
+    width: auto;
+    max-width: 100%;
+}
 
 /* FIN SOUTENIR */
 
