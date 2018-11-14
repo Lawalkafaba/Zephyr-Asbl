@@ -8,8 +8,10 @@
     .gris moyen mauve : #d3cdcb;
     .gris moyen => couleur de soulignement: #a39382;
     .gris foncé => Couleur des titres h1: #4c4c4c;
-    .orange thème => couleur bouton et menu : #ff7d18; rgb( 255, 125, 24);
     .gris moyen foncé => rgba( 96, 96, 96, 0.8);
+    .orange thème => couleur bouton et menu : #ff7d18; rgb( 255, 125, 24);
+    .orange menu : #FFBD4F; rgb( 255, 189, 79);
+    
 
 */ 
 
@@ -265,7 +267,7 @@ footer{
 .forma .formations img{
     width: 100%;
     height: auto;
-    float: right;
+  /*  float: right; */
 }
 
 .forma .formations .row div:nth-child(2){
@@ -284,6 +286,7 @@ footer{
     min-width: 12rem;
     margin-right: 4rem;
     margin-top: 4rem;
+    margin-bottom: 1rem;
     
 
 }
@@ -315,10 +318,14 @@ footer{
     line-height: 1.8rem;   
 }
 .forma .extend .row:last-of-type p:last-of-type{
-    color: #ff7d18;
+    background-color: rgba( 255, 189, 79, 0.1);
+    margin-top: 3rem;
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
     text-align: center;
+    border: 2px solid #ff7d18;
+    box-shadow: 8px 8px 12px #a39382;
+    
 }
 .forma .extend .row:nth-child(3) div:nth-child(2){
     background-color: rgba( 51, 159, 215, 0.2);
