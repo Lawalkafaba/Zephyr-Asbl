@@ -6,10 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        
-        <title>Atelier "Osez parler" - Association Zephir </title>
-        <meta name="description" content="l'occasion de se retrouver, d'échanger autour d'une langue commune, le français" />
-        
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
@@ -23,7 +20,7 @@ and open the template in the editor.
                     <div class="col-sm-3 col-md-3 col-lg-3">
 
                         <div class="logo"> <!-- LE LOGO ICI -->
-                            <img src="images/Logo final -zephyr.png" alt="logo de l'asbl Zephyr avec deux personnages représentant des migrants"/>
+                            <img src="images/zephyr-logo.png" alt=""/>
                         </div> 
                     </div>
                     <div class="social col-sm-6 col-md-2 col-lg-1"> 
@@ -49,9 +46,9 @@ and open the template in the editor.
         <nav>
             <ul>
                 <li><a href="index.html"><i class="fas fa-home"></i> Acceuil</a></li>
-                <li class="current-menu-item"><a href="apropos.html"><i class="far fa-id-badge"></i> Qui sommes-nous?</a></li>
-                <li><a href="formations.html"><i class="fas fa-briefcase"></i> Nos formations</a></li><!--
-                --><li><a href="#"><i class="far fa-envelope"></i> Nous fontacter</a>
+                <li class="current-menu-item"><a href="apropos.html"><i class="far fa-id-badge"></i> Qui sommes nous?</a></li>
+                <li><a href="formations.html"><i class="fas fa-briefcase"></i> Formations</a></li><!--
+                --><li><a href="#"><i class="far fa-envelope"></i> Contact</a>
                     <ul class="sub-menu">
                         <li>
                             <a href="https://www.facebook.com/creation2007/" target="_blank"><i class="fab fa-facebook-messenger"></i> Messenger</a>
@@ -63,91 +60,110 @@ and open the template in the editor.
                             <a href="mczephyr1@gmail.com" target="_blank"><i class="fas fa-at"></i> Mail</a>
                         </li>
                     </ul>
-                <li><a href="partenaires"><i class="fas fa-hands-helping"></i> Nos partenaires</a>
+                <li><a href="partenaires"><i class="fas fa-hands-helping"></i> Partenaires</a>
                 </li>
-                <li><a href="nous-soutenir.html"><i class="fas fa-heart"></i> Nous soutenir</a></li>
+                <li><a href="soutenir.html"><i class="fas fa-heart"></i> Nous soutenir</a></li>
             </ul>
 
         </nav>
-
-        <main class="forma">
-            
-            <!-- debut CONTENU de la page Atelier Osez parler -->
-
-            <div class='container'>
-                <div class="row">
-                    <div class="col-4 col-sm-6 col-md-8 col-lg-12">
-                        <h1 id='nosformations'>Atelier "Osez parler"</h1>
-                    </div>
-                </div>
-                
-                <div class="extend">
-                    
-                    <div class="row">
-                        <div class="col-4 col-sm-4 col-md-5 col-lg-7">
-                            <h2>Public cible : </h2>
-                            <p>Ce module s'adresse à un public francophone ou <i>non</i>-francophone, inscrit sur le territoire, désireux de participer activement dans son milieu socioculturel, de rompre l'isolement social ...</p>
-                            <h2>Conditions d’accès : </h2>
-
-                            <p>- avoir des bases de la langue française orale (niveau A1.2).</p>   
-                            <p>- accepter d'entrer dans une pédagogie active, basée sur l'approche communicative de la langue.</p>
-                            <p>- être respectueux des formateurs et des autres participants.</p>
-                            <p>- signer le règlement et le respecter.</p>
-
-                        </div>
-                        <div class="col-9 col-sm-6 col-md-4 col-lg-4">
-                            <img src="images/formations/osezParler.jpg" alt="groupe de travail en formations français langue étrangère" />
-                        </div>
+        <!-- debut contenu -->
+        <main class="nous-soutenir">
+            <div class="container">
+                <div class="fortune">
+                    <div class="soutenir-main-image">
+                        <img src="images/Cochon.jpg" alt=""/>
                     </div>
 
-                    <div class="row">
-                        <div class="col-4 col-sm-7 col-md-11 col-lg-12">
-                            <h2>Objectifs : </h2>
-                            <p>Cet atelier permet d'oser parler, de créer et de bouger.</p>
-                            <p>Les participants pourront découvrir des techniques variées</p>
-                            <ul>
-                                <li>Jeux et exercices de théâtre </li>
-                                <li>Expression corporelle </li>
-                                <li>Expression orale </li>
+                    <div class="soutenir-main-titre">
+                        <h1>Vous aussi, venez nous soutenir ! </h1>
+                    </div>
 
-                            </ul>
-                            <p>Des moments pour prendre confiance en soi, rire, bouger, s’exprimer, former une équipe.</p>
-                            <p> Un temps pour se sentir bien dans sa tête et dans son corps,  être libre… </p>
-                            <h2>Organisation :  </h2>
-                            <p>Niveau de français A1.2 minimum – 3h par semaine</p>
-                            <h2>Inscription obligatoire :</h2>
-                            <p>Vous vous engagez à participer au module complet.</p>
-                            <h2>Frais d'inscription :</h2>
-                            <p> Cotisation membre de l'asbl</p>
+                    <div class="soutenir-main-contenu">
+                        <p>
+                            Etre non francophone et/ou éloigné de la langue française écrite ou orale est un frein réel à 
+                            la vie quotidienne,à l'insertion socioculturelle et économique, à l'accès à la santé... 
+                        </p>
 
+
+                        <p>
+                            les démarches administratives relèvent parfois du parcours du combattant. 
+                            Grâce aux différentes formations social.
+                        </p>
+
+                        <p>
+                            En moyenne, chaque année, 10% des participants intègrent le marché du travail ou une
+                            formation qualifiante.
+                        </p>
+
+                        <p>
+                            Pour que notre travail reste pérenne, nous avons besoin de vous.
+                            En décidant de soutenir l'asbl Zéphyr par le biais d' un ordre permanent annuel, vous vous
+                            engagez dans une action à valeur sociale.
+                        </p>
+
+                        <p style="margin-bottom: 3rem;">
+                            Vous pouvez verser la somme choisie sur le compte de l'asbl:BE84 1430-6898-2259 avec en
+                            communication:"soutien annuel".
+                        </p>
+
+                        <div class="row">
+                            <div class="inline-block">
+                                <div class="col-3 col-sm-12">
+                                    <p style="font-weight: bold;">Si je chosis de verser:
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="inline-block">
+                                <div class="col-8 col-sm-12">
+
+                                    <p>
+                                        <label>
+                                            
+
+                                            <span> - 20€ cela correspond à 9h de formation pour un participant</span> 
+
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+
+                                          
+
+                                            <span> - 40€ cela correspond à 3h de formation pour un groupe</span> 
+
+                                        </label>
+
+                                    </p>
+                                    <p>
+                                        <label>
+
+                                          
+
+                                            <span>- une autre somme</span>
+
+                                        </label>
+
+                                    </p>
+                                </div>
+                            </div>
                         </div> 
+                        <p>  Ou par la fondation Roi Baudoin via <a href="https://www.bonnescauses.be/"> bonnescauses.be</a></p>
+
                     </div>
-
-
-
-                    <div class="row">
-                        <div class="col-4 col-sm-7 col-md-9 col-lg-12">
-
-                            <p>!!! Pour chaque activité, si le <b>nombre minimum</b> de participants n'est pas atteint, la formation ne sera pas ouverte !!!</p>
-
-                            <div class="inscrire"><a href="index.html" class="btn btn-info">S'inscrire ! </a></div>
-                        </div>    
-                    </div>
-                    
                 </div>
+
+
+
             </div>
-
-
-
-
-
             <!-- FIN DE VOTRE CONTENU -->
         </main>
 
         <!-- DEBUT SUBDUDES A NE PAS TOUCHER -->
 
         <div class="soutien"> 
-            <h4>Avec le soutien de</h4>
+            <h1>Avec le soutien de</h1>
         </div>
         <div class="container-fluid">
             <div class="row">
