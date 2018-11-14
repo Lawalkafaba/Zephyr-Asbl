@@ -222,6 +222,7 @@ footer{
 
 
 /* DEBUT QUI SOMMES NOUS? */
+<<<<<<< HEAD
 
 
     
@@ -229,6 +230,9 @@ footer{
 
 
 
+=======
+
+>>>>>>> e3595b4903f0301c6453b7519641c4abb15f8274
 
 /* FIN QUI SOMMES NOUS? */
 
@@ -236,7 +240,7 @@ footer{
 
 
 /* DEBUT FORMATIONS */
-.forma #nosformations{
+#nosformations{
     padding: 3rem 0;
     text-align: center;
     font-size: 2rem;
