@@ -185,6 +185,7 @@ footer{
     margin-top: 10px;
     text-align: center;
     color: white;
+    font-size: larger;
    
 }
 /* FIN FOOTER */
@@ -223,9 +224,7 @@ footer{
 /* DEBUT QUI SOMMES NOUS? */
 .apropos{
 
-    display: none;
-
-
+    
 
 
 
