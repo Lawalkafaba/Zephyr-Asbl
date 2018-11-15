@@ -58,6 +58,7 @@ header{
     list-style-type: none;
     position: fixed;
     padding-left: 700px;
+    display: inline-block; 
 }
 
 .social li{
