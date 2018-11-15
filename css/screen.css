@@ -233,14 +233,23 @@ footer{
 .actualites-accueil h1{
     font-size: 2rem;
 }
-/* 
- .actualites-accueil > img{
+
+ actualites.actualites-accueil > img{
+    width: 100%;
+    height: auto;
+    margin: 1rem;
      
  }
-*/
+ 
+ actualites.actualites-accueil {
+   
+    
+     
+ }
 
 
-/* FIN ACCEUIL */
+
+/* FIN ACCUEIL */
 
 
 
