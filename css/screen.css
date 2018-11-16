@@ -256,7 +256,12 @@ footer{
 
 /* DEBUT QUI SOMMES NOUS? */
 
-
+.apropos h4{
+    margin: 2rem 0;
+}
+.apropos h5{
+    margin: 1.5rem 0;
+}
 
 
 
