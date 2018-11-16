@@ -61,11 +61,11 @@ header{
     display: inline-block; 
 }
 
-.social li{
+/* .social li{
     text-decoration: none;
     display: inline-block;
-    padding-left: 00px;
-}
+    padding-left: 700px; 
+} */
 
 
 /*   Enlevé par Angélique 
@@ -76,7 +76,12 @@ header{
 */
 .bandeau-bleu{
     border-top: 10px solid #1E95D3;
+    padding: 0px;
+    margin:0px;
 
+}
+.slider img{
+    margin-left: 0px;
 }
 
 nav{
@@ -91,7 +96,7 @@ nav{
 }
 
 nav ul{
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0.5rem; 
     margin: 0px;
     list-style-type: none;
     background-color: #FFBD4F;
@@ -134,7 +139,13 @@ nav li :hover {
 nav ul li:hover .sub-menu {
     display: block;
 }
+/* MENU MOBILE */
+.mobile-icon{
+    display: none;
+}
 
+
+/* FIN MENU MOBILE */
 
 /*.button {
     background-color: #8EFAEC;
@@ -217,12 +228,28 @@ footer{
 
 
 
-/* DEBUT ACCEUIL */
+/* DEBUT ACCUEIL */
 
 
-.banière-acceuil{
-    margin-top: 12px; 
+.banière-accueil{
+    margin-top: 10px; 
 
+}
+#bienvenue{
+   padding: 1rem 0;
+   text-align: justify; 
+    font-size: 1.5rem;
+    color: #4c4c4c;
+    
+    
+   /* font-size: 15px;
+    padding: 0.3em 0;
+    padding-top: 0.3em;
+    padding-right: 0px;
+    padding-bottom: 0.3em;
+    padding-left: 0px;
+    text-align: justify; */
+    
 }
 /*
 .h1, h1 {
@@ -231,21 +258,19 @@ footer{
 }
 */
 .actualites-accueil h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #1E95D3; 
 }
 
- actualites.actualites-accueil > img{
-    width: 100%;
-    height: auto;
-    margin: 1rem;
-     
- }
  
- actualites.actualites-accueil {
+ 
+ 
+  
    
     
      
- }
+ 
 
 
 
