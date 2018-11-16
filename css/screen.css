@@ -281,7 +281,12 @@ footer{
 
 /* DEBUT QUI SOMMES NOUS? */
 
-
+.apropos h4{
+    margin: 2rem 0;
+}
+.apropos h5{
+    margin: 1.5rem 0;
+}
 
 
 
@@ -387,7 +392,7 @@ footer{
 
 }
 .forma .extend .row:nth-child(3) div:nth-child(2){
-    background-color: rgba( 51, 159, 215, 0.2);
+    background-color: rgba( 51, 159, 215, 0.2); /*bleu */
     border-radius: 7px;
     margin: 0.7rem;
 
@@ -405,12 +410,9 @@ footer{
 
 /* DEBUT CONTACT */
 .contact {
-    margin-top: 120px;
+  
     margin-left: auto;
     margin-right: auto;
-}
-form {
-    margin-left: 200px;
 }
 
 .contact h3 {
@@ -419,7 +421,7 @@ form {
     margin-bottom: 50px;
 }
 .contact img {
-    height: 500px;
+    height: 40rem;
     width: auto;
     margin-top: 50px;
 }
@@ -439,17 +441,25 @@ form {
 .infos h2 {
     margin-top: 20px;
 }
-iframe {
+.pnone iframe {
     margin-bottom: 100px;
 }
 #zone-bleue {
     width:100%;
-    margin-left: 200px;
-    margin-right: auto;
+    margin: 0 auto;
+   
 }
 form .envoyer {
 background-color: #FFBD4F;
 }
+.extend .row form{
+    background-color: rgba( 163, 147, 130, 0.2);
+    padding: 1rem;
+}
+.forma .extend .pnone .row :last-of-type p:last-of-type{
+    display: none;
+}
+    
 /* FIN CONTACT */
 
 
