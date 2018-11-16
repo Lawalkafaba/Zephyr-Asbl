@@ -424,6 +424,9 @@ footer{
     margin: 0 auto;
    
 }
+.pnone input, .pnone textarea{
+    margin-left: 5rem;
+}
 form .envoyer {
 background-color: #FFBD4F;
 }
