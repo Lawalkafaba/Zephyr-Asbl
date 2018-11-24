@@ -287,7 +287,7 @@ footer{
 
 
 
-/* DEBUT QUI SOMMES NOUS? */
+/* DEBUT : QUI SOMMES NOUS? */
 
 .apropos h4{
     margin: 2rem 0;
@@ -303,7 +303,7 @@ footer{
 
 
 
-/* FIN QUI SOMMES NOUS? */
+/* FIN  : QUI SOMMES NOUS? */
 
 
 
@@ -339,7 +339,7 @@ footer{
 .forma .formations img{
     width: 100%;
     height: auto;
-    /*  float: right; */
+   
 }
 
 .forma .formations .row div:nth-child(2){
@@ -348,7 +348,7 @@ footer{
 
 .forma .formations .row div:first-child *{
 
-    /*  margin-left: 1rem; */
+   
     padding-left: 1rem; 
 }
 
@@ -389,8 +389,8 @@ footer{
 .forma .extend .row div:first-child ul{
     line-height: 1.8rem;   
 }
-.forma .extend .row:last-of-type p:last-of-type{
-    background-color: rgba( 255, 189, 79, 0.1);
+.forma .extend .orange .row:last-of-type p:last-of-type{
+    background-color: rgba( 255, 189, 79, 0.1); /* box orange */
     margin-top: 3rem;
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
@@ -405,7 +405,7 @@ footer{
     margin: 0.7rem;
 
 }
-.forma .extend .row:last-of-type div:last-of-type .inscrire{
+.forma .extend  .row:last-of-type div:last-of-type .inscrire{
 
     text-align: center;
 }
