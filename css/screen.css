@@ -418,9 +418,9 @@ footer{
 
 /* DEBUT CONTACT */
 .contact {
-  
+  /*
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  */
 }
 
 .contact h3 {
@@ -431,7 +431,8 @@ footer{
 .contact img {
     height: 40rem;
     width: auto;
-    margin-top: 50px;
+   
+  
 }
 .infos {
     margin-left: auto;
@@ -465,6 +466,7 @@ background-color: #FFBD4F;
 }
 .extend .row form{
     background-color: rgba( 163, 147, 130, 0.2);
+    margin: 1rem;
     padding: 1rem;
 }
 .forma .extend .pnone .row :last-of-type p:last-of-type{
