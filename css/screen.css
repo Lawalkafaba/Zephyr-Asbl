@@ -422,15 +422,17 @@ footer{
 /* DEBUT CONTACT */
 .formulaire form{
     display: flex;
+   
+    /*  flex-direction: column; */
     margin-top: 0.9rem;
 }
-/*
+
 .formulaire form > div{
     width: 50%;
 }
-*/
 form .area{
     margin-top: 0.9rem;
+ 
 }
 form .envoyer {
 background-color: #FFBD4F;
@@ -441,7 +443,7 @@ background-color: #FFBD4F;
 }
 
 .coordonnees{
-    width: 26rem;
+    width: 21rem;
     padding: 1rem;
 }
 .contact {
