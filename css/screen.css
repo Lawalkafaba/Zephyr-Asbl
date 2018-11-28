@@ -63,10 +63,10 @@ header{
 .social{
     display: none;
 }
- /* .social li{
-    text-decoration: none;
-    display: inline-block;
-    padding-left: 700px; 
+/* .social li{
+   text-decoration: none;
+   display: inline-block;
+   padding-left: 700px; 
 } */
 
 
@@ -238,20 +238,20 @@ footer{
 
 }
 #bienvenue{
-   padding: 1rem 0;
-   text-align: justify; 
+    padding: 1rem 0;
+    text-align: justify; 
     font-size: 1.5rem;
     color: #4c4c4c;
-    
-    
-   /* font-size: 15px;
-    padding: 0.3em 0;
-    padding-top: 0.3em;
-    padding-right: 0px;
-    padding-bottom: 0.3em;
-    padding-left: 0px;
-    text-align: justify; */
-    
+
+
+    /* font-size: 15px;
+     padding: 0.3em 0;
+     padding-top: 0.3em;
+     padding-right: 0px;
+     padding-bottom: 0.3em;
+     padding-left: 0px;
+     text-align: justify; */
+
 }
 /*
 .h1, h1 {
@@ -271,14 +271,14 @@ footer{
     margin: 0px;
 }
 
- 
- 
- 
-  
-   
-    
-     
- 
+
+
+
+
+
+
+
+
 
 
 
@@ -447,7 +447,7 @@ background-color: #FFBD4F;
     padding: 1rem;
 }
 .contact {
-  
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -484,20 +484,51 @@ background-color: #FFBD4F;
 #zone-bleue {
     width:100%;
     margin: 0 auto;
-   
+
+}
+
+.pnone input, .pnone textarea{
+    margin-left: 5rem;
+}
+form .envoyer {
+    background-color: #FFBD4F;
+}
+.extend .row form{
+    background-color: rgba( 163, 147, 130, 0.2);
+    padding: 1rem;
 }
 
 
-.forma .extend .pnone .row :last-of-type p:last-of-type{
-    display: none;
-}
-    
+
+
+
 /* FIN CONTACT */
 
 
 
 
 /* PARTENAIRES */
+.partenaires .container{
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.partenaires > h1{
+    padding: 1rem 0;
+    text-align: center; 
+    font-size: 1.5rem;
+    color: #4c4c4c;
+}
+
+.partenaires .logo-partenaires > img {
+    border: 1px solid #FFBD4F;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.logo-partenaires > img{
+   width: 100%;
+   height: auto
+}
 
 
 /* FIN PARTENAIRES */
