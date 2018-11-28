@@ -287,7 +287,7 @@ footer{
 
 
 
-/* DEBUT QUI SOMMES NOUS? */
+/* DEBUT : QUI SOMMES NOUS? */
 
 .apropos h4{
     margin: 2rem 0;
@@ -303,7 +303,7 @@ footer{
 
 
 
-/* FIN QUI SOMMES NOUS? */
+/* FIN  : QUI SOMMES NOUS? */
 
 
 
@@ -339,7 +339,7 @@ footer{
 .forma .formations img{
     width: 100%;
     height: auto;
-    /*  float: right; */
+   
 }
 
 .forma .formations .row div:nth-child(2){
@@ -348,7 +348,7 @@ footer{
 
 .forma .formations .row div:first-child *{
 
-    /*  margin-left: 1rem; */
+   
     padding-left: 1rem; 
 }
 
@@ -389,8 +389,8 @@ footer{
 .forma .extend .row div:first-child ul{
     line-height: 1.8rem;   
 }
-.forma .extend .row:last-of-type p:last-of-type{
-    background-color: rgba( 255, 189, 79, 0.1);
+.forma .extend .orange  .row:last-of-type p:last-of-type{
+    background-color: rgba( 255, 189, 79, 0.1); /* box orange */
     margin-top: 3rem;
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
@@ -405,9 +405,12 @@ footer{
     margin: 0.7rem;
 
 }
-.forma .extend .row:last-of-type div:last-of-type .inscrire{
+.forma .extend  .row:last-of-type div:last-of-type .inscrire{
 
     text-align: center;
+}
+.soulignement a{
+    text-decoration: underline;
 }
 
 
@@ -417,6 +420,32 @@ footer{
 
 
 /* DEBUT CONTACT */
+.formulaire form{
+    display: flex;
+   
+    /*  flex-direction: column; */
+    margin-top: 0.9rem;
+}
+
+.formulaire form > div{
+    width: 50%;
+}
+form .area{
+    margin-top: 0.9rem;
+ 
+}
+form .envoyer {
+background-color: #FFBD4F;
+}
+.extend .row form{
+    background-color: rgba( 163, 147, 130, 0.2);
+    padding: 1rem;
+}
+
+.coordonnees{
+    width: 21rem;
+    padding: 1rem;
+}
 .contact {
 
     margin-left: auto;
@@ -426,12 +455,12 @@ footer{
 .contact h3 {
     color: #FFBD4F;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .contact img {
-    height: 40rem;
+    height: 4rem;
     width: auto;
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 .infos {
     margin-left: auto;
@@ -440,23 +469,24 @@ footer{
 .infos h3 {
     color: #FFBD4F;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .infos p{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .infos h2 {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .pnone iframe {
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 #zone-bleue {
     width:100%;
     margin: 0 auto;
 
 }
+
 .pnone input, .pnone textarea{
     margin-left: 5rem;
 }
@@ -467,9 +497,10 @@ form .envoyer {
     background-color: rgba( 163, 147, 130, 0.2);
     padding: 1rem;
 }
-.forma .extend .pnone .row :last-of-type p:last-of-type{
-    display: none;
-}
+
+
+
+
 
 /* FIN CONTACT */
 
