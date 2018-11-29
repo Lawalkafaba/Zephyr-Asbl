@@ -409,17 +409,24 @@ footer{
 
 
 /* DEBUT CONTACT */
+.formulaire{
+ background-color: rgba( 163, 147, 130, 0.2);
+ margin-right: 0.3rem;
+ padding-left: 1.5rem;
+}
 .formulaire form{
     display: flex;
    
-    /*  flex-direction: column; */
-   /* margin-top: 0.9rem; */
+   
 }
 
 .formulaire form > div{
     width: 50%;
 }
 
+.formulaire form label{
+    margin-left: -1.8rem;
+}
 form .area{
     margin-top: 0.9rem;
  
@@ -482,9 +489,7 @@ background-color: #FFBD4F;
     margin-top: 2rem;
   /*  margin-right:  2rem;*/
 }
-form .envoyer {
-    background-color: #FFBD4F; 
-}
+
 
 
 
