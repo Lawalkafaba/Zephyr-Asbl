@@ -294,14 +294,7 @@ footer{
     padding-right: 3rem;
 }
 
-
-
-
-
-
 /* FIN  : QUI SOMMES NOUS? */
-
-
 
 
 /* DEBUT FORMATIONS */
@@ -420,12 +413,13 @@ footer{
     display: flex;
    
     /*  flex-direction: column; */
-    margin-top: 0.9rem;
+   /* margin-top: 0.9rem; */
 }
 
 .formulaire form > div{
     width: 50%;
 }
+
 form .area{
     margin-top: 0.9rem;
  
@@ -434,7 +428,7 @@ form .envoyer {
 background-color: #FFBD4F;
 }
 .extend .row form{
-    background-color: rgba( 163, 147, 130, 0.2);
+   /* background-color: rgba( 163, 147, 130, 0.2); */
     padding: 1rem;
 }
 
@@ -443,7 +437,7 @@ background-color: #FFBD4F;
     padding: 1rem;
 }
 .contact {
-
+    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -484,15 +478,14 @@ background-color: #FFBD4F;
 }
 
 .pnone input, .pnone textarea{
-    margin-left: 5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+  /*  margin-right:  2rem;*/
 }
 form .envoyer {
-    background-color: #FFBD4F;
+    background-color: #FFBD4F; 
 }
-.extend .row form{
-    background-color: rgba( 163, 147, 130, 0.2);
-    padding: 1rem;
-}
+
 
 
 
