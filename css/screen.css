@@ -429,7 +429,9 @@ footer{
 }
 form .area{
     margin-top: 0.9rem;
- 
+}
+.formulaire .area label{
+    margin-left: 3.5rem;
 }
 form .envoyer {
 background-color: #FFBD4F;
