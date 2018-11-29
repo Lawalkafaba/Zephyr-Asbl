@@ -141,13 +141,13 @@ nav li :hover {
 nav ul li:hover .sub-menu {
     display: block;
 }
+
 /* MENU MOBILE */
 .mobile-icon{
     display: none;
 }
-
-
 /* FIN MENU MOBILE */
+
 
 /*.button {
     background-color: #8EFAEC;
@@ -195,6 +195,7 @@ img{
 /* FIN BODY */
 
 
+
 /* SUBSIDES A NE PAS TOUCHER */ 
 
 .soutien{
@@ -214,6 +215,7 @@ img{
     margin: 22px;
     /*left: 3rem; */
 }
+
 /*DEBUT FOOTER A NE PAS TOUCHER */
 footer{
     width: 100%;
@@ -228,6 +230,7 @@ footer{
 /* FIN FOOTER */
 
 
+/* ====== Autres pages ========= */
 
 
 /* DEBUT ACCUEIL */
@@ -272,19 +275,7 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* FIN ACCUEIL */
-
-
 
 
 /* DEBUT : QUI SOMMES NOUS? */
@@ -296,7 +287,12 @@ footer{
     margin: 1.5rem 0;
 }
 
-
+.apropos .projet p{
+    padding-left: 3rem;
+}
+.apropos .pedagogie p{
+    padding-right: 3rem;
+}
 
 
 
