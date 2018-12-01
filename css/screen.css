@@ -32,10 +32,11 @@ body{
     margin: 0.5rem;
 }
 */
-
+/*
 header{
-    position: relative;
+    position: relative; 
 }
+*/
 .wrap{
     background-color:white;
     height: 5rem;
@@ -51,24 +52,30 @@ header{
     width: 10rem;
     margin-top: 0.2rem;
 }
-
+/*
 .wrap ul{
     padding: 0.5rem 1.5rem;
     margin: 0px;
     list-style-type: none;
-    position: fixed;
-    padding-left: 700px;
+  position: fixed;
+    padding-left: 700px; 
     display: inline-block; 
 }
+*/
 .social{
-    display: none;
+    margin-left: auto;
+    padding-right: 1rem;
 }
-/* .social li{
+.social span >*{
+    padding-right: 1rem;
+}
+/*
+ .social li{
    text-decoration: none;
    display: inline-block;
-   padding-left: 700px; 
-} */
-
+/*   padding-left: 700px; 
+} 
+*/
 
 /*   Enlevé par Angélique 
 .container-fluid{
