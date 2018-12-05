@@ -500,7 +500,9 @@ form .envoyer {
 
 
 
-
+.forma .extend .pnone .row :last-of-type p:last-of-type{
+    display: none;
+}
 
 /* FIN CONTACT */
 
