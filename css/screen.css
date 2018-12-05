@@ -32,10 +32,11 @@ body{
     margin: 0.5rem;
 }
 */
-
+/*
 header{
-    position: relative;
+    position: relative; 
 }
+*/
 .wrap{
     background-color:white;
     height: 5rem;
@@ -51,24 +52,30 @@ header{
     width: 10rem;
     margin-top: 0.2rem;
 }
-
+/*
 .wrap ul{
     padding: 0.5rem 1.5rem;
     margin: 0px;
     list-style-type: none;
-    position: fixed;
-    padding-left: 700px;
+  position: fixed;
+    padding-left: 700px; 
     display: inline-block; 
 }
+*/
 .social{
-    display: none;
+    margin-left: auto;
+    padding-right: 1rem;
 }
-/* .social li{
+.social span >*{
+    padding-right: 1rem;
+}
+/*
+ .social li{
    text-decoration: none;
    display: inline-block;
-   padding-left: 700px; 
-} */
-
+/*   padding-left: 700px; 
+} 
+*/
 
 /*   Enlevé par Angélique 
 .container-fluid{
@@ -141,13 +148,13 @@ nav li :hover {
 nav ul li:hover .sub-menu {
     display: block;
 }
+
 /* MENU MOBILE */
 .mobile-icon{
     display: none;
 }
-
-
 /* FIN MENU MOBILE */
+
 
 /*.button {
     background-color: #8EFAEC;
@@ -195,6 +202,7 @@ img{
 /* FIN BODY */
 
 
+
 /* SUBSIDES A NE PAS TOUCHER */ 
 
 .soutien{
@@ -214,6 +222,7 @@ img{
     margin: 22px;
     /*left: 3rem; */
 }
+
 /*DEBUT FOOTER A NE PAS TOUCHER */
 footer{
     width: 100%;
@@ -228,6 +237,7 @@ footer{
 /* FIN FOOTER */
 
 
+/* ====== Autres pages ========= */
 
 
 /* DEBUT ACCUEIL */
@@ -272,19 +282,7 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* FIN ACCUEIL */
-
-
 
 
 /* DEBUT : QUI SOMMES NOUS? */
@@ -296,16 +294,14 @@ footer{
     margin: 1.5rem 0;
 }
 
-
-
-
-
-
-
+.apropos .projet p{
+    padding-left: 3rem;
+}
+.apropos .pedagogie p{
+    padding-right: 3rem;
+}
 
 /* FIN  : QUI SOMMES NOUS? */
-
-
 
 
 /* DEBUT FORMATIONS */
@@ -359,8 +355,18 @@ footer{
     margin-right: 4rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
-
-
+}
+.scroll2top{
+    display: block;
+    position: fixed;
+    right: 1.2rem;
+    bottom: 4.1rem;
+    width: 3rem;
+    height: 3rem;
+    background: scroll left top rgba( 255, 189, 79, 0.6);
+    z-index: 9;
+    cursor: pointer;
+    text-align: center;
 }
 
 /* --- PAGE liées à FORMATIONS (extend) ==> FORMATION FLE LANGUE ETRANGERE --- */
@@ -420,25 +426,35 @@ footer{
 
 
 /* DEBUT CONTACT */
+.formulaire{
+ background-color: rgba( 163, 147, 130, 0.2);
+ margin-right: 0.3rem;
+ padding-left: 1.5rem;
+}
 .formulaire form{
     display: flex;
    
-    /*  flex-direction: column; */
-    margin-top: 0.9rem;
+   
 }
 
 .formulaire form > div{
     width: 50%;
 }
+
+.formulaire form label{
+    margin-left: -1.8rem;
+}
 form .area{
     margin-top: 0.9rem;
- 
+}
+.formulaire .area label{
+    margin-left: 3.5rem;
 }
 form .envoyer {
 background-color: #FFBD4F;
 }
 .extend .row form{
-    background-color: rgba( 163, 147, 130, 0.2);
+   /* background-color: rgba( 163, 147, 130, 0.2); */
     padding: 1rem;
 }
 
@@ -447,7 +463,7 @@ background-color: #FFBD4F;
     padding: 1rem;
 }
 .contact {
-
+    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -488,15 +504,12 @@ background-color: #FFBD4F;
 }
 
 .pnone input, .pnone textarea{
-    margin-left: 5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+  /*  margin-right:  2rem;*/
 }
-form .envoyer {
-    background-color: #FFBD4F;
-}
-.extend .row form{
-    background-color: rgba( 163, 147, 130, 0.2);
-    padding: 1rem;
-}
+
+
 
 
 
@@ -544,6 +557,10 @@ form .envoyer {
 .soutenir-main-image img{
     width: auto;
     max-width: 100%;
+}
+
+.fortune{
+    padding-right: 1.5rem;
 }
 
 /* FIN SOUTENIR */
