@@ -382,10 +382,15 @@ header{
     position: relative; 
 }
 */
+
 .wrap{
     background-color:white;
     height: 5rem;
     padding: 5px;
+}
+.wrap .row{
+     margin-right: 0;
+     margin-left: 0;
 }
 
 .wrap .logo{
@@ -395,18 +400,9 @@ header{
 }
 .logo img{
     width: 10rem;
-    margin-top: 0.2rem;
+    margin-top: 0.02rem;
 }
-/*
-.wrap ul{
-    padding: 0.5rem 1.5rem;
-    margin: 0px;
-    list-style-type: none;
-  position: fixed;
-    padding-left: 700px; 
-    display: inline-block; 
-}
-*/
+
 .social{
     margin-left: auto;
     padding-right: 1rem;
@@ -414,13 +410,7 @@ header{
 .social span >*{
     padding-right: 1rem;
 }
-/*
- .social li{
-   text-decoration: none;
-   display: inline-block;
-/*   padding-left: 700px; 
-} 
-*/
+
 
 /*   Enlevé par Angélique 
 .container-fluid{
@@ -435,7 +425,7 @@ header{
 
 }
 .slider img{
-    margin-left: 0px;
+    margin-left: 0px; 
 }
 
 nav{
@@ -599,13 +589,7 @@ footer{
     color: #4c4c4c;
 
 
-    /* font-size: 15px;
-     padding: 0.3em 0;
-     padding-top: 0.3em;
-     padding-right: 0px;
-     padding-bottom: 0.3em;
-     padding-left: 0px;
-     text-align: justify; */
+   
 
 }
 /*
@@ -624,6 +608,10 @@ footer{
     width: 100%;
     height: auto;
     margin: 0px;
+}
+.visite img{
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 
