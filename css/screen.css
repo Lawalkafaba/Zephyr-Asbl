@@ -412,12 +412,6 @@ header{
 }
 
 
-/*   Enlevé par Angélique 
-.container-fluid{
-    padding: 0px;
-    margin: 0px;
-}
-*/
 .bandeau-bleu{
     border-top: 10px solid #1E95D3;
     padding: 0px;
@@ -491,17 +485,6 @@ nav ul li:hover .sub-menu {
 /* FIN MENU MOBILE */
 
 
-/*.button {
-    background-color: #8EFAEC;
-    border: none;
-    color: #ea0d0d;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 9px; 
-}  */
 
 img{
     width: 100%;
@@ -554,7 +537,7 @@ img{
 .container-fluid .subside{
     width: 100%;
     height: auto;
-    margin: 22px;
+    margin: 22px; 
     /*left: 3rem; */
 }
 
