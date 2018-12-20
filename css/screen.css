@@ -493,8 +493,7 @@ nav{
 }
 
 nav ul{
-    padding: 0.3rem 0.3rem; 
-    margin: 0px;
+    padding: 10px; 
     list-style-type: none;
     background-color: #FF8000;
     text-align: center;
@@ -506,7 +505,7 @@ nav li{
     display: inline-block;
     text-align: center;
     position: relative;
-    margin: 25px;
+    margin-left: 50px;
 
 }
 
@@ -540,9 +539,9 @@ nav ul li:hover .sub-menu {
 }
 
 /* MENU MOBILE */
-.mobile-icon{
-    display: none;
-}
+
+
+
 /* FIN MENU MOBILE */
 
 
@@ -653,11 +652,6 @@ footer{
     height: auto;
     margin: 0px;
 }
-.visite img{
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
 
 /* FIN ACCUEIL */
 
