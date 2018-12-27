@@ -1,955 +1,962 @@
-/ * NORMALISER * /
+/*NORMALIZE */
 
-/ *! normalize.css v8.0.0 | Licence MIT | github.com/necolas/normalize.css * /
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
-/ * Document
-   =============================================== ======================== * /
+/* Document
+   ========================================================================== */
 
-/ **
- * 1. Corrigez la hauteur de ligne dans tous les navigateurs.
- * 2. Empêchez les ajustements de la taille de la police après les changements d'orientation dans iOS.
- * /
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
 
 html {
-    hauteur de ligne: 1,15; /* 1 */
-    -webkit-text-size-adjust: 100%; / * 2 * /
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
-   =============================================== ======================== * /
+   ========================================================================== */
 
-/ **
- * Supprimer la marge dans tous les navigateurs.
- * /
+/**
+ * Remove the margin in all browsers.
+ */
 
-corps {
-    marge: 0;
+body {
+    margin: 0;
 }
 
-/ **
- * Corrigez la taille de la police et la marge sur les éléments `h1` dans` section` et
- * Contextes `article` dans Chrome, Firefox et Safari.
- * /
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
 
 h1 {
-    taille de police: 2em;
-    marge: 0,67 m 0;
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
-/ * Grouper le contenu
-   =============================================== ======================== * /
+/* Grouping content
+   ========================================================================== */
 
-/ **
- * 1. Ajoutez le bon dimensionnement dans Firefox.
- * 2. Affichez le débordement dans Edge et IE.
- * /
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
 
 hr {
-    taille de la boîte: contenu-boîte; /* 1 */
-    hauteur: 0; /* 1 */
-    débordement: visible; / * 2 * /
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
 }
 
-/ **
- * 1. Corrigez l'héritage et la mise à l'échelle de la taille de la police dans tous les navigateurs.
- * 2. Corrigez la taille des polices `em` dans tous les navigateurs.
- * /
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
 
 pre {
-    famille de polices: monospace, monospace; /* 1 */
-    taille de police: 1em; / * 2 * /
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
 }
 
-/ * Sémantique de niveau texte
-   =============================================== ======================== * /
+/* Text-level semantics
+   ========================================================================== */
 
-/ **
- * Supprimer le fond gris sur les liens actifs dans Internet Explorer 10.
- * /
+/**
+ * Remove the gray background on active links in IE 10.
+ */
 
-une {
-    couleur de fond: transparent;
+a {
+    background-color: transparent;
 }
 
-/ **
- * 1. Supprimez la bordure inférieure dans Chrome 57-
- * 2. Ajoutez la décoration de texte appropriée dans Chrome, Edge, IE, Opera et Safari.
- * /
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
 
-abbr [titre] {
-    bordure inférieure: aucune; /* 1 */
-    texte-décoration: souligné; / * 2 * /
-    texte-décoration: soulignement pointillé; / * 2 * /
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
 }
 
-/ **
- * Ajoutez le bon poids de police dans Chrome, Edge et Safari.
- * /
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
 
 b,
-fort {
-    poids de police: plus gras;
+strong {
+    font-weight: bolder;
 }
 
-/ **
- * 1. Corrigez l'héritage et la mise à l'échelle de la taille de la police dans tous les navigateurs.
- * 2. Corrigez la taille des polices `em` dans tous les navigateurs.
- * /
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
 
 code,
 kbd,
 samp {
-    famille de polices: monospace, monospace; /* 1 */
-    taille de police: 1em; / * 2 * /
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
 }
 
-/ **
- * Ajouter la taille de police correcte dans tous les navigateurs.
- * /
+/**
+ * Add the correct font size in all browsers.
+ */
 
-petit {
-    taille de police: 80%;
+small {
+    font-size: 80%;
 }
 
-/ **
- * Empêcher les éléments `sub` et` sup` d'affecter la hauteur de ligne dans
- * tous les navigateurs.
- * /
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
 
-sous,
+sub,
 sup {
-    taille de police: 75%;
-    hauteur de ligne: 0;
+    font-size: 75%;
+    line-height: 0;
     position: relative;
-    alignement vertical: ligne de base;
+    vertical-align: baseline;
 }
 
-sous {
-    en bas: -0,25em;
+sub {
+    bottom: -0.25em;
 }
 
 sup {
-    en haut: -0,5em;
+    top: -0.5em;
 }
 
-/ * Contenu incorporé
-   =============================================== ======================== * /
+/* Embedded content
+   ========================================================================== */
 
-/ **
- * Supprimez la bordure des images dans les liens dans IE 10.
- * /
+/**
+ * Remove the border on images inside links in IE 10.
+ */
 
 img {
-    style de bordure: aucun;
+    border-style: none;
 }
 
-/* Formes
-   =============================================== ======================== * /
+/* Forms
+   ========================================================================== */
 
-/ **
- * 1. Modifiez les styles de police dans tous les navigateurs.
- * 2. Supprimez la marge dans Firefox et Safari.
- * /
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
 
-bouton,
-contribution,
+button,
+input,
 optgroup,
-sélectionner,
+select,
 textarea {
-    famille de polices: hériter; /* 1 */
-    taille de police: 100%; /* 1 */
-    hauteur de ligne: 1,15; /* 1 */
-    marge: 0; / * 2 * /
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
 }
 
-/ **
- * Montrer le débordement dans IE.
- * 1. Affichez le débordement dans Edge.
- * /
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
 
-bouton,
-entrée {/ * 1 * /
-    débordement: visible;
+button,
+input { /* 1 */
+    overflow: visible;
 }
 
-/ **
- * Supprimer l'héritage de transformation de texte dans Edge, Firefox et IE.
- * 1. Supprimez l'héritage de la transformation de texte dans Firefox.
- * /
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
 
-bouton,
-sélectionnez {/ * 1 * /
-    transformation de texte: aucune;
+button,
+select { /* 1 */
+    text-transform: none;
 }
 
-/ **
- * Corrigez l'incapacité de styliser les types cliquables dans iOS et Safari.
- * /
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
 
-bouton,
-[type = "bouton"],
-[type = "reset"],
-[type = "submit"] {
-    -webkit-apparence: bouton;
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
 }
 
-/ **
- * Supprimer la bordure intérieure et le rembourrage dans Firefox.
- * /
+/**
+ * Remove the inner border and padding in Firefox.
+ */
 
-bouton :: - moz-focus-inner,
-[type = "bouton"] :: - moz-focus-inner,
-[type = "reset"] :: - moz-focus-inner,
-[type = "submit"] :: - moz-focus-inner {
-    style de bordure: aucun;
-    rembourrage: 0;
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
 }
 
-/ **
- * Restaurez les styles de focus non définis par la règle précédente.
- * /
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
 
-bouton: -moz-focusring,
-[type = "bouton"]: - moz-focusring,
-[type = "reset"]: - moz-focusring,
-[type = "submit"]: - moz-focusring {
-    contour: 1px en pointillé ButtonText;
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
 }
 
-/ **
- * Corrigez le remplissage dans Firefox.
- * /
+/**
+ * Correct the padding in Firefox.
+ */
 
-champset {
-    rembourrage: 0,35 m 0,75 m 0,625 m;
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
 }
 
-/ **
- * 1. Corrigez l'habillage du texte dans Edge et IE.
- * 2. Corrigez l'héritage de couleur des éléments `fieldset` dans IE.
- * 3. Supprimez le remplissage pour que les développeurs ne soient pas pris au dépourvu
- * éléments `fieldset` dans tous les navigateurs.
- * /
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
 
-Légende {
-    taille de la boîte: boîte-frontière; /* 1 */
-    couleur: hériter; / * 2 * /
-    affichage: table; /* 1 */
-    largeur maximale: 100%; /* 1 */
-    rembourrage: 0; / * 3 * /
-    espace blanc: normal; /* 1 */
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
 }
 
-/ **
- * Ajoutez le bon alignement vertical dans Chrome, Firefox et Opera.
- * /
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
 
-le progrès {
-    alignement vertical: ligne de base;
+progress {
+    vertical-align: baseline;
 }
 
-/ **
- * Supprimez la barre de défilement verticale par défaut dans IE 10+.
- * /
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
 
 textarea {
-    débordement: auto;
+    overflow: auto;
 }
 
-/ **
- * 1. Ajoutez la taille correcte de la boîte dans IE 10.
- * 2. Supprimez le remplissage dans IE 10.
- * /
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
 
-[type = "case à cocher"],
-[type = "radio"] {
-    taille de la boîte: boîte-frontière; /* 1 */
-    rembourrage: 0; / * 2 * /
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
 }
 
-/ **
- * Corrigez le style de curseur des boutons d'incrémentation et de décrémentation dans Chrome.
- * /
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
 
-[type = "numéro"] :: - webkit-inner-spin-button,
-[type = "numéro"] :: - webkit-outer-spin-button {
-    hauteur: auto;
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
 }
 
-/ **
- * 1. Corrigez l'apparence étrange dans Chrome et Safari.
- * 2. Corrigez le style de contour dans Safari.
- * /
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
 
-[type = "search"] {
-    -webkit-apparence: champ de texte; /* 1 */
-    contour-offset: -2px; / * 2 * /
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
 }
 
-/ **
- * Supprimez le rembourrage intérieur dans Chrome et Safari sous macOS.
- * /
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
 
-[type = "search"] :: - webkit-search-decoration {
-    -webkit-apparence: aucun;
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
 }
 
-/ **
- * 1. Corrigez l'incapacité de styliser les types cliquables dans iOS et Safari.
- * 2. Modifiez les propriétés de la police en "inherit" dans Safari.
- * /
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
 
-:: - webkit-file-upload-button {
-    -webkit-apparence: bouton; /* 1 */
-    font: hériter; / * 2 * /
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
 }
 
-/ * Interactif
-   =============================================== ======================== * /
+/* Interactive
+   ========================================================================== */
 
-/ *
- * Ajoutez le bon affichage dans Edge, IE 10+ et Firefox.
- * /
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
 
-détails {
-    bloc de visualisation;
+details {
+    display: block;
 }
 
-/ *
- * Ajouter le bon affichage dans tous les navigateurs.
- * /
+/*
+ * Add the correct display in all browsers.
+ */
 
-résumé {
-    display: liste-item;
+summary {
+    display: list-item;
 }
 
-/ * Misc
-   =============================================== ======================== * /
+/* Misc
+   ========================================================================== */
 
-/ **
- * Ajouter le bon affichage dans IE 10+.
- * /
+/**
+ * Add the correct display in IE 10+.
+ */
 
-modèle {
-    affichage: aucun;
+template {
+    display: none;
 }
 
-/ **
- * Ajouter le bon affichage dans IE 10.
- * /
+/**
+ * Add the correct display in IE 10.
+ */
 
-[caché] {
-    affichage: aucun;
+[hidden] {
+    display: none;
 }
 
 
-/ * STYLES GENERAUX - tout peut-être modifié! - * /
+/* STYLES GENERAUX -- tout peut-être modifié ! -- */
 
-/* -- COULEUR -- */
-/ * .gris-bleu moyen: #ccc;
-    .bleu clair: # B0E0E6;
-    .bleu moyen => logo asbl: # 6495ED;
-    .bleu thème => couleur du FOOTER: # 339fd7; RGB (51, 159, 215);
-    .gris moyen mauve: # d3cdcb;
-    .gris moyen => couleur de soulignement: # a39382;
-    .gris foncé => Couleur des titres h1: # 4c4c4c;
-    .gris moyen foncé => rgba (96, 96, 96, 0.8);
-    .orange thème => couleur bouton et menu: # ff7d18; RGB (255, 125, 24);
-    menu orange: # FFBD4F; RGB (255, 189, 79);
+/* -- COLOR -- */
+/*  .gris-bleu moyen : #ccc;
+    .bleu clair :  #B0E0E6;
+    .bleu moyen => logo asbl: #6495ED;
+    .bleu thème => couleur du FOOTER : #339fd7; rgb( 51, 159, 215);
+    .gris moyen mauve : #d3cdcb;
+    .gris moyen => couleur de soulignement: #a39382;
+    .gris foncé => Couleur des titres h1: #4c4c4c;
+    .gris moyen foncé => rgba( 96, 96, 96, 0.8);
+    .orange thème => couleur bouton et menu : #ff7d18; rgb( 255, 125, 24);
+    .orange menu : #FFBD4F; rgb( 255, 189, 79);
     
 
-* / 
+*/ 
 
-corps{
-    font-family: "Segoe UI", "Lucida Grande", Roboto, Verdana, Lucida, Helvetica, Arial, sans serif;
-    taille de police: 15px;
-    couleur de fond: blanc;
-    couleur: rgba (96, 96, 96, 0,8);
-    marge: 0;
-    rembourrage: 0; 
-    position: absolue; 
+body{
+    font-family: "Segoe UI", "Lucida Grande", Roboto, Verdana, Lucida, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color : white;
+    color: rgba( 96, 96, 96, 0.8);
+    margin: 0;
+    padding: 0; 
+    position: absolute; 
 }
 
-/ * [class ^ = "col-"],
-[class * = "col-"],
-.rangée {
-    rembourrage: 0.5rem;
-    marge: 0,5 rem;
+/*[class^="col-"],
+[class*=" col-"],
+.row {
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
-* /
-/ *
-entête{
+*/
+/*
+header{
     position: relative; 
 }
-* /
+*/
 
-.emballage{
-    couleur de fond: blanc;
-    hauteur: 5rem;
-    rembourrage: 5px;
+.wrap{
+    background-color:white;
+    height: 5rem;
+    padding: 5px;
 }
-.wrap .row {
-    marge droite: 0;
-    marge gauche: 0;
+.wrap .row{
+    margin-right: 0;
+    margin-left: 0;
 }
 
-.wrap .logo {
-    largeur: 40%;
-    marge supérieure: -1rem;
+.wrap .logo{
+    width: 40%;
+    margin-top: -1rem;
 
 }
-.logo img {
-    largeur: 10rem;
-    marge supérieure: 0,02 rem;
+.logo img{
+    width: 10rem;
+    margin-top: 0.02rem;
 }
 
 .social{
-    marge gauche: auto;
+    margin-left: auto;
     padding-right: 1rem;
 }
-durée sociale> * {
+.social span >*{
     padding-right: 1rem;
 }
 
 
-.bandeau-bleu {
-    bordure supérieure: 10 px solide # 1E95D3;
-    remplissage: 0px;
-    marge: 0px;
+.bandeau-bleu{
+    border-top: 10px solid #1E95D3;
+    padding: 0px;
+    margin:0px;
 
 }
-Écran @média et (largeur minimale: 1280 pixels) {
-    nav {
-        bloc de visualisation; 
-        position: collante; / * pour fixer le nav * /
+@media screen and (min-width: 1280px){
+    nav{
+        display: block; 
+        position: sticky;  /*pour fixer le nav */
         z-index: 10000;
-        en haut: 0;
-        remplissage: 0px;
-        marge: 0px;
+        top: 0;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
     }
-    .menu-mobile {
-        affichage: aucun;
+    .menu-mobile{
+        display: none;
     }
    
     }
 
 
-nav ul {
-    rembourrage: 10px; 
-    type de style de liste: aucun;
-    couleur de fond: # FF8000;
+nav ul{
+    padding: 10px; 
+    list-style-type: none;
+    background-color: #FF8000;
     text-align: center;
-    largeur: 100%;
+    width: 100%;
 }
 
 
-nav li {
-    affichage: inline-block;
+nav li{
+    display: inline-block;
     text-align: center;
     position: relative;
-    marge gauche: 50px;
+    margin-left: 50px;
 
 }
 
 nav li i {
-    taille de police: 30px;
+    font-size: 30px;
 }
 
-nav li a {
-    bloc de visualisation;
-    texte-décoration: aucun;
-    couleur: #FFFFFF;
-    taille de police: 20px;
+nav li a{
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 20px;
 
 }
 
-nav li: hover {
-    couleur: # EEEEC6;
-    texte-décoration: aucun;
+nav li :hover {
+    color: #EEEEC6;
+    text-decoration: none;
 }
 
-.sous-menu {
-    affichage: aucun;
-    position: absolue;
-    largeur: 100%;
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
     z-index: 1;
 }
 
 
-nav ul li: survolez .sous-menu {
-    bloc de visualisation;
+nav ul li:hover .sub-menu {
+    display: block;
 }
 
-/ * MENU MOBILE * /
+/* MENU MOBILE */
 
 
-Écran @média et (largeur maximale: 1281px) {
+@media screen and (max-width: 1281px){
 
-    nav {
-        affichage: aucun;
+    nav{
+        display: none;
     }
-    .actif {
-        couleur de fond: # FF8000;
-        Couleur blanche;
+    .active {
+        background-color: #FF8000;
+        color: white;
         
     } 
     
-    .slideshow-container {
-        affichage: aucun;
+    .slideshow-container{
+        display: none;
     }
 
 }
 
 
-/ * Menu Style navigateur * /
+/* Style navigateur menu */
 .menu-mobile {
-    débordement caché;
-    couleur de fond: # 1E95D3;
+    overflow: hidden;
+    background-color: #1E95D3;
     position: relative;
 }
 
 .menu-mobile #myLinks {
-    affichage: aucun;
+    display: none;
 
 }
 
-/ * Style lien de navigation menu * /
+/* Style lien de navigation menu  */
 .menu-mobile a {
-    Couleur blanche;
-    rembourrage: 14px 16px;
-    texte-décoration: aucun;
-    taille de police: 17px;
-    bloc de visualisation;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
 }
 
-/ * Style du menu hamburger * /
+/* Style du menu hamburger  */
 .menu-mobile a.icon {
-    arrière-plan: # 1E95D3;
-    bloc de visualisation;
-    position: absolue;
-    à droite: 0;
-    en haut: 0;
+    background: #1E95D3;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-.menu-mobile a: survol {
-    couleur de fond: #ddd;
-    la couleur noire;
+.menu-mobile a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 
-/ * FIN MENU MOBILE * /
+/* FIN MENU MOBILE */
 
 
 
-img {
-    largeur: 100%;
-    hauteur: auto;
-    marge: 1rem;
+img{
+    width: 100%;
+    height: auto;
+    margin: 1rem;
 
 } 
-.btn {
-    arrière-plan: # 3b5998;
-    Couleur blanche;
-    rembourrage: 5px 10px;
+.btn{
+    background: #3b5998;
+    color: white;
+    padding: 5px 10px;
     border-radius: 10px;
-    marge supérieure: 10 px;
-    / * marge: 15px;
-      largeur: 35px; * /
+    margin-top: 10px;
+    /*margin: 15px;
+      width: 35px; */
 }
 
-.btn-facebook {
-    arrière-plan: # 3b5998;
+.btn-facebook{
+    background: #3b5998;
 
 }
 
-.btn: hover {
-    Couleur blanche;
-    opacité: 0,8;
+.btn:hover{
+    color: white;
+    opacity: 0.8;
 }
 
 
 .fas {
-    Couleur blanche;
+    color: white;
 }
 
-/ * FIN DU CORPS * /
+/* FIN BODY */
 
 
 
-/ * SUBSIDES A NE PAS TOUCHER * / 
+/* SUBSIDES A NE PAS TOUCHER */ 
 
-.soutien {
-    bord supérieur: solide 3px # FF8000;
-    marge: 2rem;
-    famille de polices: Segoe UI;
-    couleur: # FF892F;
+.soutien{
+    border-top: 3px solid #FF8000;
+    margin: 2rem;
+    font-family: Segoe UI;
+    color: #FF892F;
 
-} .soutien h4 {    
-    taille de la police: 1.2rem;   
-    rembourrage en haut: 0.5rem
+}.soutien h4{    
+    font-size: 1.2rem;   
+    padding-top: 0.5rem;
 }
 
-.container-fluid .subside {
-    largeur: 100%;
-    hauteur: auto;
-    marge: 22px; 
-    / * à gauche: 3rem; * /
+.container-fluid .subside{
+    width: 100%;
+    height: auto;
+    margin: 22px; 
+    /*left: 3rem; */
 }
 
-/ * FIN SUBSIDES * /
+/*FIN SUBSIDES     */
 
-/ * DEBUT FOOTER A NE PAS TOUCHER * /
-bas de page{
-    largeur: 100%;
-    hauteur: 60px;
-    couleur de fond: # 1E95D3; 
-    marge supérieure: 10 px;
+/*DEBUT FOOTER A NE PAS TOUCHER */
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #1E95D3; 
+    margin-top: 10px;
     text-align: center;
-    Couleur blanche;
-    taille de police: plus grande;
+    color: white;
+    font-size: larger;
 
 }
-/ * FIN FOOTER * /
+/* FIN FOOTER */
 
 
-/ * ====== Autres pages ========== /
+/* ====== Autres pages ========= */
 
 
-/ * DEBUT ACCUEIL * /
+/* DEBUT ACCUEIL */
 
 
-.banière-accueil {
-    marge supérieure: 10 px; 
-
-}
-#bienvenue {
-    rembourrage: 1rem 0;
-    text-align: justifier; 
-    taille de la police: 1.5rem;
-    couleur: # 4c4c4c;
-
-
-
+.banière-accueil{
+    margin-top: 10px; 
 
 }
-/ *
+#bienvenue{
+    padding: 1rem 0;
+    text-align: justify; 
+    font-size: 1.5rem;
+    color: #4c4c4c;
+
+
+
+
+}
+/*
 .h1, h1 {
-    taille de police: 1rem;
-    couleur: # FF7D19;
+    font-size: 1rem;
+    color:#FF7D19;
 }
-* /
-.actualites-accueil h1 {
-    taille de la police: 1.5rem;
-    marge supérieure: 2rem;
-    couleur: # 1E95D3;
+*/
+.actualites-accueil h1{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #1E95D3;
     
 }
 
-.actualites-accueil img {
-    largeur: 100%;
-    hauteur: auto;
-    marge: 0px;
+.actualites-accueil img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
 }
 
-.slider img {
-    marge: 0; 
+.slider img{
+    margin: 0; 
 }
 
-.visite img {
-    marge gauche: 0;
+.visite img{
+    margin-left: 0;
 }
 
 
- / * FIN ACCUEIL * /
+ /* FIN ACCUEIL */
 
 
-/ * DEBUT: QUI SOMMES NOUS? * /
+/* DEBUT : QUI SOMMES NOUS? */
 
-.apropos h4 {
-    marge: 2rem 0;
+.apropos h4{
+    margin: 2rem 0;
 }
-.apropos h5 {
-    marge: 1,5rem 0;
+.apropos h5{
+    margin: 1.5rem 0;
 }
 
-.apropos .projet p {
+.apropos .projet p{
     padding-left: 3rem;
 }
-.apropos .pedagogie p {
+.apropos .pedagogie p{
     padding-right: 3rem;
 }
 
-/ * FIN: QUI SOMMES NOUS? * /
+/* FIN  : QUI SOMMES NOUS? */
 
 
-/ * DEBUT FORMATIONS * /
-#nosformations {
-    rembourrage: 3rem 0;
+/* DEBUT FORMATIONS */
+#nosformations{
+    padding: 3rem 0;
     text-align: center;
-    taille de police: 2rem;
-    couleur: # 4c4c4c;
+    font-size: 2rem;
+    color: #4c4c4c;
 
 }
 
-.forma .formations {
-    bordure: solide 1px # a39382;
-    marge en bas: 3rem;
+.forma .formations{
+    border: 1px solid  #a39382;
+    margin-bottom: 3rem;
 
 
 }
-.forma .formations h2 {
-    text-transform: majuscule;
-    taille de la police: 1.5rem;
-    rembourrage: 0.5rem 0;
-    / *
-    text-decoration: underline # a39382;
+.forma .formations h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding:0.5rem 0;
+    /*
+    text-decoration: underline #a39382;
     text-underline-position: under;
-    * /
-    couleur: # 4c4c4c;    
+    */
+    color: #4c4c4c;    
 }
-.forma .formations p {
-    taille de la police: 1.1rem;
+.forma .formations p{
+    font-size: 1.1rem;
 }
-.forma .formations img {
-    largeur: 100%;
-    hauteur: auto;
+.forma .formations img{
+    width: 100%;
+    height: auto;
 
 }
 
-.forma .formations .row div: nth-child (2) {
+.forma .formations .row div:nth-child(2){
     text-align: right;
 }
 
-.forma .formations .row div: premier-enfant * {
+.forma .formations .row div:first-child *{
 
 
-    rembourrage gauche: 1rem; 
+    padding-left: 1rem; 
 }
 
-.forma .btn-info {
-    couleur de fond: # ff7d18;
-    bordure: aucune;
-    largeur min: 12rem;
-    marge droite: 4rem;
-    marge supérieure: 4rem;
-    marge en bas: 1rem;
+.forma .btn-info{
+    background-color: #ff7d18;
+    border: none;
+    min-width: 12rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
 }
-.scroll2top {
-    bloc de visualisation;
-    position: fixe;
-    à droite: 1.2rem;
-    en bas: 4.1rem;
-    largeur: 3rem;
-    hauteur: 3rem;
-    arrière-plan: défilement en haut à gauche rgba (255, 189, 79, 0.6);
+.scroll2top{
+    display: block;
+    position: fixed;
+    right: 1.2rem;
+    bottom: 4.1rem;
+    width: 3rem;
+    height: 3rem;
+    background: scroll left top rgba( 255, 189, 79, 0.6);
     z-index: 9;
-    curseur: pointeur;
+    cursor: pointer;
     text-align: center;
 }
 
-/ * --- PAGE liée à FORMATIONS (extend) ==> FORMATION FLE LANGUE ETRANGERE --- * /
+/* --- PAGE liées à FORMATIONS (extend) ==> FORMATION FLE LANGUE ETRANGERE --- */
 
-.forma .extend h2 {
-    / *
-    text-decoration: underline # a39382;
+.forma .extend h2{
+    /*
+    text-decoration: underline #a39382;
     text-underline-position: under;
-    * /
-    taille de la police: 1.5rem;
-    rembourrage en haut: 0.8rem;
+    */
+    font-size: 1.5rem;
+    padding-top: 0.8rem;
 }
-.forma .extend h3 {
-    taille de la police: 1.3rem;
+.forma .extend h3{
+    font-size: 1.3rem;
     padding-top: 1.1rem;
 
 }
-.forma .extend h2, .extend h3 {
-    / *
-    text-decoration: underline # a39382;
+.forma .extend h2, .extend h3{
+    /*
+    text-decoration: underline #a39382;
     text-underline-position: under;
-    * /
-    rembourrage en bas: 0.5rem;
-    couleur: # 4c4c4c;  
+    */
+    padding-bottom: 0.5rem;
+    color: #4c4c4c;  
 }
-.forma .extend .row div: premier-enfant ul {
-    hauteur de ligne: 1.8rem;   
+.forma .extend .row div:first-child ul{
+    line-height: 1.8rem;   
 }
-.forma .extend .orange .row: dernier du type p: dernier du type {
-    couleur de fond: rgba (255, 189, 79, 0,1); / * boîte orange * /
-    marge supérieure: 3rem;
-    rembourrage en haut: 1.3rem;
-    rembourrage en bas: 1.5rem;
+.forma .extend .orange  .row:last-of-type p:last-of-type{
+    background-color: rgba( 255, 189, 79, 0.1); /* box orange */
+    margin-top: 3rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
     text-align: center;
-    bordure: solide 2px # ff7d18;
-    box-shadow: 8px 8px 12px # a39382;
+    border: 2px solid #ff7d18;
+    box-shadow: 8px 8px 12px #a39382;
 
 }
-.forma .extend .row: nth-child (3) div: nth-child (2) {
-    couleur de fond: rgba (51, 159, 215, 0,2); / * bleu * /
+.forma .extend .row:nth-child(3) div:nth-child(2){
+    background-color: rgba( 51, 159, 215, 0.2); /*bleu */
     border-radius: 7px;
-    marge: 0,7 rem;
+    margin: 0.7rem;
 
 }
-.forma .extend .row: dernier type-type div: dernier type-type .inscrire {
+.forma .extend  .row:last-of-type div:last-of-type .inscrire{
 
     text-align: center;
 }
-.soulignement a {
-    texte-décoration: souligné;
+.soulignement a{
+    text-decoration: underline;
 }
 
 
-/ * FIN FORMATIONS * /
+/* FIN FORMATIONS */
 
 
 
 
-/ * DEBUT CONTACT * /
-.formulaire {
-    couleur de fond: rgba (163, 147, 130, 0,2);
-    marge droite: 0.3rem;
+/* DEBUT CONTACT */
+.formulaire{
+    background-color: rgba( 163, 147, 130, 0.2);
+    margin-right: 0.3rem;
     padding-left: 1.5rem;
 }
-.formulaire form {
-    affichage: flex;
+.formulaire form{
+    display: flex;
 
 
 }
 
-.formulaire form> div {
-    largeur: 50%;
+.formulaire form > div{
+    width: 50%;
 }
 
-.formulaire form label {
-    marge gauche: -1,8rem;
+.formulaire form label{
+    margin-left: -1.8rem;
 }
-forme .area {
-    marge supérieure: 0.9rem;
+form .area{
+    margin-top: 0.9rem;
 }
-.formulaire .area label {
-    marge gauche: 3,5 rem;
+.formulaire .area label{
+    margin-left: 3.5rem;
 }
-forme .envoyer {
-    couleur de fond: # FFBD4F;
+form .envoyer {
+    background-color: #FFBD4F;
 }
-.extend .row form {
-    / * couleur de fond: rgba (163, 147, 130, 0,2); * /
-    rembourrage: 1rem;
+.extend .row form{
+    /* background-color: rgba( 163, 147, 130, 0.2); */
+    padding: 1rem;
 }
 
-.coordonnees {
-    largeur: 21rem;
-    rembourrage: 1rem;
+.coordonnees{
+    width: 21rem;
+    padding: 1rem;
 }
 .contact {
-    marge supérieure: 4rem;
-    marge gauche: auto;
-    marge droite: auto;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact h3 {
-    couleur: # FFBD4F;
+    color: #FFBD4F;
     text-align: center;
-    marge inférieure: 5rem;
+    margin-bottom: 5rem;
 }
 .contact img {
-    hauteur: 4rem;
-    largeur: auto;
-    marge supérieure: 2rem;
+    height: 4rem;
+    width: auto;
+    margin-top: 2rem;
 }
 .infos {
-    marge gauche: auto;
-    marge droite: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .infos h3 {
-    couleur: # FFBD4F;
+    color: #FFBD4F;
     text-align: center;
-    marge supérieure: 5rem;
+    margin-top: 5rem;
 }
-.infos p {
+.infos p{
     text-align: center;
-    taille de la police: 1.5rem;
+    font-size: 1.5rem;
 }
 .infos h2 {
-    marge supérieure: 2rem;
+    margin-top: 2rem;
 }
 .pnone iframe {
-    marge inférieure: 10rem;
+    margin-bottom: 10rem;
 }
-# zone-bleue {
-    largeur: 100%;
-    marge: 0 auto;
+#zone-bleue {
+    width:100%;
+    margin: 0 auto;
 
-}
-
-Entrée .pnone, .pnone textarea {
-    marge gauche: 3rem;
-    marge supérieure: 2rem;
-    / * margin-right: 2rem; * /
 }
 
-
-
-.forma .extend .pnone .row: dernier du type p: dernier du type {
-    affichage: aucun;
+.pnone input, .pnone textarea{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    /*  margin-right:  2rem;*/
 }
 
 
 
-/ * FIN CONTACT * /
-
-
-
-
-/ * PARTENAIRES * /
-.partenaires .container {
-    rembourrage: 1rem;
-    marge supérieure: 5rem;
+.forma .extend .pnone .row :last-of-type p:last-of-type{
+    display: none;
 }
-.partenaires> h1 {
-    rembourrage: 1rem 0;
+
+
+
+/* FIN CONTACT */
+
+
+
+
+/* PARTENAIRES */
+.partenaires .container{
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.partenaires > h1{
+    padding: 1rem 0;
     text-align: center; 
-    taille de la police: 1.5rem;
-    couleur: # 4c4c4c;
+    font-size: 1.5rem;
+    color: #4c4c4c;
 }
 
-.partenaires .logo-partenaires> img {
-    bordure: solide 1px # FFBD4F;
-    rembourrage: 0;
-    marge: 0;
+.partenaires .logo-partenaires > img {
+    border: 1px solid #FFBD4F;
+    padding: 0;
+    margin: 0;
     border-radius: 5px;
 }
-.logo-partenaires> img {
-    largeur: 100%;
-    hauteur: auto
+.logo-partenaires > img{
+    width: 100%;
+    height: auto
 }
 
 
-/ * FIN PARTENAIRES * /
+/* FIN PARTENAIRES */
 
 
 
-/ * DEBUT NOUS SOUTENIR * /
+/* DEBUT NOUS SOUTENIR */
 
 .soutenir-main-image {
     text-align: center;
 }
 
-.soutenir-main-image img {
-    largeur: auto;
-    largeur maximale: 100%;
+.soutenir-main-image img{
+    width: auto;
+    max-width: 100%;
 }
 
 .fortune{
     padding-right: 1.5rem;
 }
 
-/ * FIN SOUTENIR * /
+/* FIN SOUTENIR */
 
 
-.slider {
-    marge gauche: 0px;
-    marge droite: 0px;
-    marge supérieure: 0px;
-    marge inférieure: 16px;
+.slider{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.owl-dots
+{
+    position: absolute;
+    bottom:30px;
+    left:50%;
 }
