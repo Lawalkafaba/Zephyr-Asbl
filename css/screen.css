@@ -427,7 +427,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: auto;
+  width: auto;
   position: relative;
   margin: auto;
 }
@@ -808,6 +808,7 @@ footer{
  margin-right: 0.3rem;
  padding-left: 1.5rem;
 }
+
 .formulaire form{
     display: flex;
    
@@ -832,7 +833,7 @@ background-color: #FFBD4F;
 }
 .extend .row form{
    /* background-color: rgba( 163, 147, 130, 0.2); */
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .coordonnees{
