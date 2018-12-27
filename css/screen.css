@@ -418,7 +418,7 @@ header{
     margin:0px;
 
 }
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 560px){
     nav{
         display: block; 
         position: sticky;  /*pour fixer le nav */
@@ -428,6 +428,7 @@ header{
         margin: 0px;
         text-align: center;
     }
+    
     .menu-mobile{
         display: none;
     }
@@ -484,9 +485,13 @@ nav ul li:hover .sub-menu {
 /* MENU MOBILE */
 
 
-@media screen and (max-width: 1281px){
+@media screen and (max-width: 561px){
 
     nav{
+        display: none;
+    }
+    .owl-carousel
+    {
         display: none;
     }
     .active {
